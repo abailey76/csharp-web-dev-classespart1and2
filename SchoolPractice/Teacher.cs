@@ -16,5 +16,9 @@ namespace SchoolPractice
             YearsTeaching = yearsTeaching;
         }
 
+        public override string ToString()
+        {
+            return $"{FirstName} {LastName} || Special Area of Concern: {Subject}";
+        }
     }
 }
